@@ -1,5 +1,5 @@
 console.clear();
-function findMinimumNumber(num) {
+function findMinNumber(num) {
   let min = num[0]; 
 
   for (let i = 0; i < num.length; i++) {
@@ -11,5 +11,5 @@ function findMinimumNumber(num) {
   return min; 
 }
 
-const result = findMinimumNumber([1, 8, 7 ,2 ,5]);
+const result = findMinNumber([1, 8, 7 ,2 ,5]);
 console.log(result);
